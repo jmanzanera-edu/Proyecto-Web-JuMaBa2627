@@ -1,21 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 3.1</title>
 </head>
+
 <body>
 
     <header>
         <h1>Actividad 3.1 Trabajando con Git y Github</h1>
-        <!-- Aquí va el menú de navegación o el logo -->
+        <!-- Menú con 3 secciones -->
+        <nav>
+            <ul>
+                <li><a href="#que-es-git">¿Qué es Git?</a></li>
+                <li><a href="#github">GitHub</a></li>
+                <li><a href="#comandos">Comandos básicos</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section>
             <h2>Trabajando con Git y GitHub</h2>
-            <p>Este es el cuerpo principal de tu página web.</p>
+            <section id="que-es-git">
+                <h2>¿Qué es Git?</h2>
+                <p>
+                    Git es un sistema de control de versiones distribuido que funciona de manera local en tu ordenador.
+                    Permite registrar cada cambio que realizas en el código de un proyecto, volver a versiones
+                    anteriores
+                    si algo falla y trabajar en distintas ramas sin afectar la versión principal.
+                </p>
+            </section>
+
+            <section id="github">
+                <h2>GitHub y el trabajo en la nube</h2>
+                <p>
+                    GitHub es una plataforma en la nube diseñada para alojar repositorios creados con Git.
+                    Facilita la colaboración entre desarrolladores mediante herramientas como las <em>Pull Requests</em>
+                    (solicitudes de cambios), el seguimiento de errores (<em>Issues</em>) y la revisión de código en
+                    equipo.
+                </p>
+            </section>
+
+            <section id="comandos">
+                <h2>Comandos básicos esenciales</h2>
+                <p>Para empezar a gestionar un proyecto desde la terminal, estos son los comandos fundamentales:</p>
+                <ul>
+                    <li><code>git init</code>: Crea un nuevo repositorio local en la carpeta actual.</li>
+                    <li><code>git add .</code>: Prepara todos los archivos modificados para ser guardados.</li>
+                    <li><code>git commit -m "mensaje"</code>: Guarda una instantánea de los cambios con una descripción.
+                    </li>
+                    <li><code>git push</code>: Sube tus confirmaciones locales al repositorio remoto en GitHub.</li>
+                </ul>
+            </section>
         </section>
     </main>
 
@@ -24,4 +63,5 @@
     </footer>
 
 </body>
+
 </html>
