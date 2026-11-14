@@ -11,5 +11,10 @@ Este repositorio contiene los archivos y prácticas realizadas para la **Activid
 * `README.md`: Archivo con la descripción general de la actividad.
 * *(Agrega aquí otros archivos o carpetas que vayas creando)*
 
+## Próximas mejoras
+* Añadir ejemplos prácticos de creación y fusión de ramas (`branch` y `merge`).
+* Documentar la resolución de conflictos en Git.
+* Incluir una sección con los comandos más utilizados y su explicación.
+
 ## Autor
 * **Juan Manzanera** - *Estudiante 1º DAW - 26/27*
